@@ -11,7 +11,7 @@ window.dataLayer.push({
       affiliation: "Luke Storey", //type: string
       coupon: "FreeProbiotics", //type: string
       discount: 500.00, //type: integer
-      index: 0, //type: integer - 	The index/position of the item in a list.
+      index: 0, //type: integer - The index/position of the item in a list.
       item_brand: "Your Brand Name", //type: string
       item_category: "Healthy products", //type: string
       item_category2: "Females", //type: string - The second category hierarchy or additional taxonomy for the item. If it does not exist, leave empty. 
