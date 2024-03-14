@@ -12,10 +12,15 @@ Please note that these links include a gtag call, and not a dataLayer push. _We 
 The correct orders of the events are:
 
 1."view_item"
+
 2."add_to_cart"
+
 3."begin_checkout"
+
 4."add_shipping_info"
+
 5."add_payment_info"
+
 6."purchase"
 
 1. These are the instructions about the "_view_item_" event:
