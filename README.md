@@ -23,6 +23,8 @@ The correct orders of the events are:
 
 6."purchase"
 
+--------------------------------------------------------------
+
 
 1. These are the instructions about the "_view_item_" event:
 - "push" the code once the user lands on a product page like **XXXXXX TO BE ADDED**
