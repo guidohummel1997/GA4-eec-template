@@ -8,7 +8,7 @@ Additional resources that can be useful:
 6. https://developers.google.com/analytics/devguides/collection/ga4/reference/events?sjid=11470055494011769802-EU&client_type=gtag#purchase
 
 Please note that these links include a gtag call, and not a dataLayer push. _We want a dataLayer push_ which is why I've included that in each snippets.
-
+----------------------------------------------------------------------
 The correct orders of the events are:
 
 1."view_item"
