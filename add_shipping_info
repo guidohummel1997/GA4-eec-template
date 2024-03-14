@@ -3,8 +3,8 @@ window.dataLayer.push({
 
   event: "add_shipping_info",
   currency: "USD", //type: string
-  value: 6000.99, //type: integer
-  coupon: "GUIDOTESTDAVID", //type: string
+  value: 4199.94, //type: integer
+  coupon: "ATTNLABSTEST", //type: string
   shipping_tier: "Air",
   items: [
     {
