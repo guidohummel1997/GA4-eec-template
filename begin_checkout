@@ -3,14 +3,14 @@ window.dataLayer.push({
 
   event: "begin_checkout",
   currency: "USD", //type: string
-  value: 6000.99, //type: integer
+  value: 4199.94, //type: integer
   coupon: "ATTNLABSTEST", //type: string
   items: [
     {
       item_id: "SKU_12345", //type: string
       item_name: "Product 1", //type: string
       affiliation: "Luke Storey", //type: string
-      coupon: "FREEHEADPHONES", //type: string
+      coupon: "FreeProbiotics", //type: string
       discount: 500.00, //type: integer
       index: 0, //type: integer - 	The index/position of the item in a list.
       item_brand: "Your Brand Name", //type: string
@@ -24,6 +24,25 @@ window.dataLayer.push({
       item_variant: "XL", //type: string
       price: 1999.99, //type: integer
       quantity: 2 //type: integer
+    },
+{
+      item_id: "SKU_6789", 
+      item_name: "Product 2", 
+      affiliation: "Austin Floyd", 
+      coupon: "ReadySummer", 
+      discount: 25.00, 
+      index: 2, 
+      item_brand: "Your Brand Name", 
+      item_category: "Healthy products", 
+      item_category2: "Males", 
+      item_category3: "Organic Sunscreens", 
+      item_category4: "Strong Protection", 
+      item_category5: "Organic", //type: string
+      item_list_id: "recently_viewed_products", 
+      item_list_name: "Recently viewed Products",
+      item_variant: "300ml",
+      price: 49.99,
+      quantity: 4
     }
   ]
 });
