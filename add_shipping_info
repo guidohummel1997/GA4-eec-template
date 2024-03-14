@@ -1,0 +1,30 @@
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+
+  event: "add_shipping_info",
+  currency: "USD", //type: string
+  value: 6000.99, //type: integer
+  coupon: "GUIDOTESTDAVID", //type: string
+  shipping_tier: "Air",
+  items: [
+    {
+      item_id: "SKU_12345", //type: string
+      item_name: "Opus Soundbed", //type: string
+      affiliation: "Luke Storey", //type: string
+      coupon: "FREEHEADPHONES", //type: string
+      discount: 500.00, //type: integer
+      index: 0, //type: integer - 	The index/position of the item in a list.
+      item_brand: "Opus", //type: string
+      item_category: "Sound bed", //type: string
+      item_category2: "Adult", //type: string - The second category hierarchy or additional taxonomy for the item.
+      item_category3: "Shirts", //type: string 
+      item_category4: "Crew", //type: string
+      item_category5: "Short sleeve", //type: string
+      item_list_id: "related_products", //type: string - The ID of the list in which the item was presented to the user.
+      item_list_name: "Related Products", //type: string - The name of the list in which the item was presented to the user.
+      item_variant: "XL", //type: string
+      price: 1999.99, //type: integer
+      quantity: 3 //type: integer
+    }
+  ]
+});
