@@ -1,7 +1,7 @@
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
 
-  event: "add_shipping_info",
+  event: "add_payment_info",
   currency: "USD", //type: string
   value: 4199.94, //type: integer
   coupon: "ATTNLABSTEST", //type: string
