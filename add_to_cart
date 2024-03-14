@@ -1,1 +1,47 @@
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
 
+  event: "add_to_cart",
+  currency: "USD", //type: string
+  value: 4199.94, //type: integer
+  items: [
+    {
+      item_id: "SKU_12345", //type: string
+      item_name: "Product 1", //type: string
+      affiliation: "Luke Storey", //type: string
+      coupon: "FreeProbiotics", //type: string
+      discount: 500.00, //type: integer
+      index: 0, //type: integer - 	The index/position of the item in a list.
+      item_brand: "Your Brand Name", //type: string
+      item_category: "Healthy products", //type: string
+      item_category2: "Females", //type: string - The second category hierarchy or additional taxonomy for the item. If it does not exist, leave empty. 
+      item_category3: "Probiotics", //type: string - The third category hierarchy or additional taxonomy for the item. If it does not exist, leave empty. 
+      item_category4: "Crew", //type: string
+      item_category5: "Short sleeve", //type: string
+      item_list_id: "related_products", //type: string - The ID of the list in which the item was presented to the user.
+      item_list_name: "Related Products", //type: string - The name of the list in which the item was presented to the user.
+      item_variant: "XL", //type: string
+      price: 1999.99, //type: integer
+      quantity: 2 //type: integer
+    },
+{
+      item_id: "SKU_6789", 
+      item_name: "Product 2", 
+      affiliation: "Austin Floyd", 
+      coupon: "ReadySummer", 
+      discount: 25.00, 
+      index: 2, 
+      item_brand: "Your Brand Name", 
+      item_category: "Healthy products", 
+      item_category2: "Males", 
+      item_category3: "Organic Sunscreens", 
+      item_category4: "Strong Protection", 
+      item_category5: "Organic", //type: string
+      item_list_id: "recently_viewed_products", 
+      item_list_name: "Recently viewed Products",
+      item_variant: "300ml",
+      price: 49.99,
+      quantity: 4
+    }
+  ]
+});
