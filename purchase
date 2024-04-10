@@ -8,6 +8,13 @@ window.dataLayer.push({
   tax: 500.00, //type: integer
   shipping: 49.99, //type: integer
   coupon: "ATTNLABSTEST", //type: string
+  firstname: "Guido", //type: string
+  lastname: "Hummel", //type: string
+  city: "Los Angeles", //type: string
+  state: "California", //type: string
+  country: "USA", //type: string
+  email: "guidohummeltest@gmail.com", //type: string
+  phone: "900123456", //type: string
   items: [
     {
       item_id: "SKU_12345", //type: string
